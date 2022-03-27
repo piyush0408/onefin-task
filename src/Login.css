@@ -1,0 +1,209 @@
+.loginBackground {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(to bottom right, white, #38a1ff); */
+  /* background-color: #38a1ff; */
+  background-color: white;
+}
+.loginContainer {
+  width: 90%;
+  min-height: 90vh;
+  height: 100%;
+  display: flex;
+  /* border-radius: 30px; */
+  box-shadow: 0 0 5px 0;
+}
+.loginLeftSide {
+  width: 70%;
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  /* align-items: center; */
+  /* align-content: space-between; */
+  justify-content: space-between;
+  padding-left: 50px;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #000; */
+  background-image: url("./235672.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #d4d4d4;
+}
+.loginLeftHeading1 {
+  margin-top: 33px;
+  font-size: 33px;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.loginLeftHeading2 {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+.arrow {
+  margin-left: 3px;
+}
+
+/* .loginLeftSide > div {
+  border: 1px solid black;
+  margin: 5%;
+} */
+
+.loginRightSide {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  background-color: #f6f8fa;
+  /* height: 100%; */
+  /* border: 2px solid green; */
+  /* border-radius: 10px; */
+}
+
+.loginRightHeading1 {
+  font-size: 32px;
+  margin-bottom: 33px;
+}
+
+.googleAuthentication {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 0;
+  text-transform: capitalize;
+  border-radius: 2px;
+  margin-bottom: 33px;
+  font-size: 14px;
+  color: gray;
+}
+.googleIcon {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.or {
+  width: 100%;
+
+  text-align: center;
+
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 44px;
+}
+.or > span {
+  background-color: #f6f8fa;
+
+  padding: 0 10px;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 33px;
+}
+.loginForm > p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  /* color: rgb(32, 137, 172); */
+  color: gray;
+}
+
+.loginForm > input {
+  margin-bottom: 25px;
+  height: 28px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.loginForm > button {
+  height: 35px;
+  border: none;
+  background-color: #fb5665;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+
+  /* font-size: 1px; */
+}
+
+.forgotPassword {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+}
+
+.LoginRightSideFooter {
+  /* position: relative; */
+  /* bottom: 0; */
+  /* top: 100%; */
+  margin-top: 33px;
+  display: flex;
+  /* border: 1px solid red; */
+  font-size: 12px;
+  color: gray;
+}
+.LoginRightSideFooter > p > span {
+  letter-spacing: 1px;
+}
+
+/* media query */
+@media screen and (max-width: 500px) {
+  .loginBackground {
+    /* display: none; */
+    /* width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    border: 5px solid red; */
+  }
+
+  .loginContainer {
+    /* width: 100%;
+    border: 5px solid green;
+    margin: 0;
+    padding: 0;
+
+    min-height: 90vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #38a1ff; */
+    /* border-radius: 30px; */
+  }
+  .loginLeftSide {
+    /* width: 90%;
+    border: 5px solid pink; */
+    /* flex: 1;/ */
+
+    /* height: 50%; */
+    /* height: 100vh; */
+    /* flex: 1; */
+    /* width: 98%; */
+
+    /* height: 80vh; */
+    display: none;
+  }
+  .loginRightSide {
+    /* width: 98%; */
+    width: 86%;
+
+    /* height: 50%; */
+  }
+
+  .LoginRightSideFooter {
+    margin-top: 180px;
+  }
+}

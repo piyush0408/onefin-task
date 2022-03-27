@@ -1,0 +1,120 @@
+.movieContainer {
+  width: 100%;
+  /* padding: 10px; */
+  min-height: 100vh;
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  /* border: 8px solid blue; */
+
+  /* margin-top: 10px; */
+}
+
+.searchHeader {
+  background-color: #38a1ff;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  /* padding: 0 13px; */
+  width: 100%;
+  /* flex: 1; */
+  /* border: 8px solid green; */
+}
+
+.mainHeader {
+  color: white;
+  font-size: 33px;
+  margin: 0 15px;
+}
+
+.searchBox {
+  /* width: 99%; */
+  /* border: 10px solid red; */
+  flex: 1;
+  width: 20px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0 10px;
+  border-radius: 50px;
+}
+
+.searchBox > input {
+  /* margin-top: 1px; */
+  /* flex: 1; */
+  width: 100%;
+  border-radius: 50px;
+  height: 30px;
+  /* border: 1px solid gray; */
+  border: none;
+  padding: 10px;
+  /* box-shadow: 0px 0px 2px 0px; */
+  outline: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+
+.searchIcon {
+  font-size: 30px;
+  color: black;
+}
+
+.movieCardContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.pagination {
+  /* border: 2px solid red; */
+  /* position: fixed;
+  bottom: ; */
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination > button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  /* margin-right: 20px; */
+}
+
+.pagination > p {
+  margin: 0 20px;
+}
+
+.refreshBtn {
+  background-color: #ee5e56;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 120px;
+  height: 44px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.reloadIcon {
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}

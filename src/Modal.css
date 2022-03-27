@@ -1,0 +1,62 @@
+.modalBackground {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  /* bottom: 0; */
+  /* min-height: 100vh; */
+  /* height: 100%; */
+  background-color: black;
+  opacity: 0.95;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  transition: all 1s ease-in;
+}
+
+.modalContainer {
+  width: 90%;
+  height: 100%;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  overflow: scroll;
+  /* opacity: 1; */
+  /* -ms-overflow-style */
+}
+
+.modalContainer::-webkit-scrollbar {
+  display: none;
+}
+.modalCrossIcon {
+  position: absolute;
+  /* color: white; */
+  right: 15px;
+}
+.modalHeader {
+  display: flex;
+  align-items: center;
+  font-size: 33px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+.modalImg {
+  margin-right: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+/* .modalDescription {
+} */
+
+.modalGenre {
+  margin-top: 20px;
+}
